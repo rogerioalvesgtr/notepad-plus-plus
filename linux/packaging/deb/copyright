@@ -1,0 +1,32 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Notepad++ Linux
+Source: https://github.com/notepad-plus-plus/notepad-plus-plus
+
+Files: *
+Copyright: Don Ho and the Notepad++ contributors, and the authors of the Linux port
+License: GPL-3
+
+Files: scintilla/* lexilla/*
+Copyright: Neil Hodgson and the Scintilla and Lexilla contributors
+License: HPND
+ Permission to use, copy, modify, and distribute this software and its
+ documentation for any purpose and without fee is hereby granted, provided
+ that the above copyright notice appear in all copies and that both that
+ copyright notice and this permission notice appear in supporting
+ documentation.
+ .
+ NEIL HODGSON DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING
+ ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO EVENT SHALL NEIL
+ HODGSON BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY
+ DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
+ CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+License: GPL-3
+ This program is free software; you may redistribute and/or modify it under the
+ terms of the GNU General Public License as published by the Free Software
+ Foundation; version 3, with the clarifications and exceptions described in the
+ Notepad++ license terms installed as /usr/share/doc/notepad-plus-plus-linux/LICENSE.
+ .
+ On Debian, Ubuntu and Linux Mint systems the complete text of the GNU General
+ Public License version 3 is in /usr/share/common-licenses/GPL-3.

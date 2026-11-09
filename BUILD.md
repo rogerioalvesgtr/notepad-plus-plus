@@ -1,5 +1,20 @@
 # Building Notepad++
 
+## Native Linux (Ubuntu / Linux Mint)
+
+A native GTK 3 editor is available in the `linux` directory. It does not use Wine or modify the Windows application.
+
+```sh
+sudo apt update
+sudo apt install build-essential pkg-config libgtk-3-dev
+make -C linux -j"$(nproc)"
+./linux/bin/notepad-plus-plus-linux
+```
+
+To build an installable package for Linux Mint / Ubuntu, also install `dpkg-dev` and run `make -C linux deb`.
+
+See [the Linux port documentation](linux/README.md) for its current features, tests, installation and limitations.
+
 ## Microsoft Visual Studio
 
 **Pre-requisites:**

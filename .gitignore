@@ -104,6 +104,17 @@ PowerEditor/src/tools/NppShell/build_Win32
 PowerEditor/src/tools/NppShell/build_x64
 PowerEditor/src/NppLibsVersion.h
 
+# Native Linux build and local development dependencies
+.linux-build/
+linux/build/
+linux/bin/
+scintilla/gtk/*.o
+scintilla/bin/scintilla.a
+scintilla/bin/libscintilla.so
+lexilla/src/*.o
+lexilla/bin/liblexilla.a
+lexilla/bin/liblexilla.so
+
 # scintilla - generated files
 scintilla/bin/SciLexer.*
 scintilla/bin/Scintilla.*

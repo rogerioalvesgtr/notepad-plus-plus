@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=Notepad++ Linux
+GenericName=Editor de texto e código
+Comment=Editor nativo para Ubuntu e Linux Mint
+Exec=notepad-plus-plus-linux %F
+Icon=notepad-plus-plus-linux
+Terminal=false
+Categories=Utility;TextEditor;
+MimeType=text/plain;text/x-c++src;text/x-python;application/json;application/xml;
+Keywords=editor;texto;código;notepad;
+StartupNotify=true

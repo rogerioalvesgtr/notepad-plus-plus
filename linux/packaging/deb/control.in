@@ -1,0 +1,17 @@
+Package: notepad-plus-plus-linux
+Version: @VERSION@
+Architecture: @ARCH@
+Maintainer: @MAINTAINER@
+Installed-Size: @SIZE@
+Depends: @DEPENDS@
+Section: editors
+Priority: optional
+Homepage: https://notepad-plus-plus.org/
+Description: native GTK text and source code editor based on Notepad++ components
+ Notepad++ Linux is a native Linux editor (no Wine) built with GTK 3 on the
+ Scintilla and Lexilla components used by Notepad++.
+ .
+ It offers tabs, syntax highlighting, search and replace in files and folders,
+ macros, crash recovery, function list, document map, project folders,
+ user-defined languages in the Notepad++ XML format, configurable styles and
+ native Linux plugins. Windows plugin DLLs are not supported.

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.notepad_plus_plus.Linux</id>
+  <name>Notepad++ Linux</name>
+  <summary>Editor de texto e código nativo para Ubuntu e Linux Mint</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <developer id="io.github.notepad_plus_plus">
+    <name>Notepad++ Linux</name>
+  </developer>
+  <url type="homepage">https://notepad-plus-plus.org/</url>
+  <description>
+    <p>Editor nativo baseado nos componentes Scintilla e Lexilla do Notepad++, sem Wine. Os menus seguem a mesma organização da versão Windows.</p>
+    <p>Oferece abas, realce de sintaxe com as cores da versão Windows, localizar, substituir e marcar, busca em arquivos, macros, recuperação do texto não salvo ao fechar, lista de funções, mapa do documento, espaço de trabalho, linguagens definidas pelo usuário, estilos configuráveis e plugins nativos do Linux. Plugins DLL do Windows não são suportados.</p>
+  </description>
+  <launchable type="desktop-id">notepad-plus-plus-linux.desktop</launchable>
+  <provides>
+    <binary>notepad-plus-plus-linux</binary>
+  </provides>
+  <content_rating type="oars-1.1"/>
+  <releases>
+    <release version="0.7.0" date="2026-11-09"/>
+    <release version="0.6.3" date="2026-11-09"/>
+    <release version="0.6.2" date="2026-11-09"/>
+    <release version="0.6.1" date="2026-11-09"/>
+    <release version="0.6.0" date="2026-11-09"/>
+    <release version="0.1.0" date="2026-11-09"/>
+  </releases>
+</component>
